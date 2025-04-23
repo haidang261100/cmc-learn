@@ -1,0 +1,8 @@
+<suite name="SauceDemoSuite">
+    <parameter name="browser" value="chrome" />
+    <test name="Login Tests">
+        <classes>
+            <class name="Testcase.LoginTest"/>
+        </classes>
+    </test>
+</suite>
